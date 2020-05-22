@@ -106,4 +106,5 @@ inputDecimal = (dot) => {
 const percentage = document.querySelector('.percentage');
 percentage.addEventListener("click", () => {
   calculatorScreen.value = currentNumber / 100;
+  currentNumber = calculatorScreen.value;
 })
